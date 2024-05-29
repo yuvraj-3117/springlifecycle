@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans    
+      http://www.springframework.org/schema/beans/spring-beans.xsd
+      http://www.springframework.org/schema/context
+      http://www.springframework.org/schema/context/spring-context.xsd">
+  <!--      <context:annotation-config/>  yeah saare anotaion enable kr dega is tag se code chalegA BUT abhi solution nhi mila-->
+ 
+	<!-- bean definitions here -->
+<!--  	<bean class="com.springcore.lifecycle.Samosa" name="s1 "
+	 init-method="init" destroy-method="destroy" >
+
+		<property name="price" value="10" />
+	</bean>
+	
+	
+	<bean class="com.springcore.lifecycle.Pepsi" name="p1 ">
+	
+
+		<property name="price" value="5" />
+	</bean>  -->
+
+
+
+	<bean class="com.springcore.lifecycle.Example" name="example ">
+	
+		<property name="subject" value="maths" />
+	</bean>
+	<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/><!--  yeah sirf postorpre or enable krene ke liya he -->
+
+</beans>
+
+
+
+  
+ 
+
+  
+
+  
+
+
+  
+
+
